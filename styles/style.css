@@ -1,1 +1,40 @@
-/* место для вашего кода */
+
+
+header {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  align-items: center;
+  padding: 92px 50px 96px;
+}
+
+.header__menu ul {
+  display: flex;
+  gap: 32px;
+}
+
+.list-marker {
+  list-style: circle;
+  border-bottom: 1px solid #000;
+}
+
+.list-marker-no-mark {
+  list-style: none;
+}
+
+.header__menu a {
+  text-decoration: none;
+}
+
+.logo-black {
+  width: 148px;
+  height: 105px;
+}
+
+.cotacts-link {
+  text-decoration: underline;
+}
+
+.cover {
+  background: url("../images/cover.jpg");
+}
+
