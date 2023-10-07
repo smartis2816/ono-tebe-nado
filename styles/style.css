@@ -58,6 +58,11 @@ header {
 
 .overlay {
   background-color: rgba(0, 0, 0, 0.6);
+  width: inherit;
+  height: inherit;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
 }
 
 .cover__title {
@@ -80,6 +85,7 @@ header {
 
 .aligned-text_center {
   justify-content: center;
+  padding-right: 60px;
 }
 
 .aligned-text_right {
@@ -128,4 +134,127 @@ header {
   width: 257px;
   height: 52px;
   flex-shrink: 0;
+}
+
+.lots {
+  padding: 180px 50px 183px;
+}
+
+.lots__heading {
+  padding-bottom: 27px;
+  padding-left: 50px;
+  font-size: 40px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  text-transform: uppercase;
+}
+
+.lots__card-list {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 25px;
+  padding-bottom: 30px;
+}
+
+.lots__card-list-item {
+  min-width: 430px;
+  min-height: 450px;
+  flex-grow: 1;
+  flex-basis:0pt;
+  list-style-type: none;
+}
+
+.card-link {
+  text-decoration: none;
+  height: 100%;
+}
+
+.card {
+  height: 100%;
+}
+
+.card_type_film {
+  background: url("../images/card-lot-01.jpg");
+  background-size: cover;
+}
+
+.card_type_book {
+  background: url("../images/card-lot-02.jpg");
+  background-size: cover;
+}
+
+.card_type_picture {
+  background: url("../images/card-lot-03.jpg");
+  background-size: cover;
+}
+
+.card__title {
+  color: #FFF;
+  font-size: 22px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 120%;
+  text-decoration-line: underline;
+  text-transform: uppercase;
+  padding: 50px 40px 0px;
+}
+
+.card__text {
+  color: #FFF;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 120%;
+  padding: 0px 40px 50px;
+}
+
+.lots__look-more-link {
+  padding-left: 40px;
+  color: #000;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+
+.about {
+  padding: 0 50px 180px;
+  display: grid;
+  grid-template-columns: 1fr 2fr;
+}
+
+.about__logo {
+  margin: auto;
+  width: 240px;
+  height: 240px;
+  background-color: #000;
+  border-radius: 50%;
+  display: flex;
+}
+
+.about__logo-image {
+  width: 148px;
+  height: 114px;
+  margin: auto;
+}
+
+.about__title {
+  padding: 100px 0;
+  font-size: 40px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  text-transform: uppercase;
+}
+
+.about__text {
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  flex-shrink: 0;
+  display: flex;
+  flex-direction: column;
+  gap: 25px;
 }
