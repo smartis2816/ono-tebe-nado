@@ -17,8 +17,7 @@ header {
   padding-left: 50px;
 }
 
-.header__links-list-item
- {
+.header__links-list-item {
   list-style: circle;
   border-bottom: 1px solid #000;
 }
@@ -66,7 +65,7 @@ header {
 }
 
 .cover__title {
-  color: #FFF;
+  color: #fff;
   font-size: 100px;
   font-style: normal;
   font-weight: 700;
@@ -109,7 +108,7 @@ header {
 }
 
 .cover__description-text {
-  color: #FFF;
+  color: #fff;
   text-align: center;
   font-size: 22px;
   font-style: normal;
@@ -121,7 +120,7 @@ header {
 }
 
 .bet-button {
-  color: #FFF;
+  color: #fff;
   text-align: center;
   font-size: 22px;
   font-style: normal;
@@ -129,8 +128,8 @@ header {
   line-height: normal;
   text-transform: uppercase;
   background: transparent;
-	border: 1px solid #FFF;
-	cursor: pointer;
+  border: 1px solid #fff;
+  cursor: pointer;
   width: 257px;
   height: 52px;
   flex-shrink: 0;
@@ -161,7 +160,7 @@ header {
   min-width: 430px;
   min-height: 450px;
   flex-grow: 1;
-  flex-basis:0pt;
+  flex-basis: 0pt;
   list-style-type: none;
 }
 
@@ -190,7 +189,7 @@ header {
 }
 
 .card__title {
-  color: #FFF;
+  color: #fff;
   font-size: 22px;
   font-style: normal;
   font-weight: 700;
@@ -201,7 +200,7 @@ header {
 }
 
 .card__text {
-  color: #FFF;
+  color: #fff;
   font-size: 20px;
   font-style: normal;
   font-weight: 400;
@@ -257,4 +256,52 @@ header {
   display: flex;
   flex-direction: column;
   gap: 25px;
+}
+
+footer {
+  display: flex;
+  justify-content: space-between;
+  padding-bottom: 90px;
+}
+
+.footer__address {
+  padding-left: 50px;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 24.3px;
+}
+
+.footer__menu {
+  text-align: center;
+  font-family: Raleway;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+
+.footer__menu-list {
+  list-style-type: none;
+}
+
+.footer__menu-link {
+  border-bottom: 1px solid #000;
+  text-decoration: none;
+}
+
+.footer__menu-link_active {
+  border-bottom: none;
+}
+
+.footer__social-list {
+  padding-right: 50px;
+  display: flex;
+  gap: 48px;
+  list-style-type: none;
+}
+
+.footer__social-list-item {
+  width: 48px;
+  height: 48px;
 }
